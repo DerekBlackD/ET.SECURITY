@@ -1,0 +1,12 @@
+<h4>eratec - menu</h4>
+
+<ul>
+    <li>Mantenimientos</li>
+    <ul>
+        <!--<li><a routerLink="/Usuario" routerLinkActive="active">Usuarios</a></li>-->
+        <li><a [routerLink]="['/Usuario', {outlets: {'content': ['none']}}]">Usuarios</a></li>
+        <li>Perfiles</li>
+        <li>Opciones</li>
+    </ul>
+    <li>Soporte</li>
+</ul>

@@ -1,3 +1,13 @@
-<h1>
-  {{title}}
-</h1>
+<header>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <router-outlet name="banner"></router-outlet>
+        </div>
+    </nav>
+    
+</header>
+
+<div class="container">
+    <!-- Router Outlet -->
+    <router-outlet></router-outlet>
+</div>
